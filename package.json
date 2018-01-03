@@ -1,0 +1,21 @@
+{
+  "name": "hillside-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "create": "claudia create --region us-west-2 --api-module index --policies policies --configure-db",
+    "deploy": "claudia update",
+    "reconfigure": "claudia update --configure-db"
+  },
+  "author": "Rick Jolly",
+  "dependencies": {
+    "aws-sdk": "^2.4.11",
+    "claudia-api-builder": "^1.5.0"
+  },
+  "devDependencies": {
+    "claudia": "^1.5.0"
+  }
+}

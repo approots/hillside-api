@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "hillside-api-executor",
+    "name": "hillside-api",
+    "region": "us-west-2"
+  },
+  "api": {
+    "id": "2nn1ylegl1",
+    "module": "index"
+  }
+}
